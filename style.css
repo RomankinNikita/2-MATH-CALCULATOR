@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.window {
+  color: #000;
+  background: #B5FFB9;
+  margin: 20px auto;
+  width: 400px;
+  padding: 15px 10px 10px 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+label:not(.result-label) {
+  cursor: pointer;
+}
+
+input {
+  display: block;
+}
+
+input:not(.button) {
+  width: 100%;
+}
+
+.button {
+  font-size: 12px;
+  background: #E6E6E6;
+  border: .5px solid #000;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.button:hover {
+  background: rgb(195, 194, 194);
+}
+
+.title, label, input:not(.button) {
+  display: block;
+  margin-bottom: 8px;
+}
