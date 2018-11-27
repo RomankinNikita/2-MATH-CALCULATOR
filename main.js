@@ -9,7 +9,6 @@ const calculateExpression = (inputValue) => { // 3.5 +4*10-5.3 /5 =
   let Regs = {
     OPERAND_SYMBOL_REG: /\s*[0-9\.]\s*/,
     OPERATOR_SYMBOL_REG: /\s*[+\-*/=]\s*/,
-    rgxCorrectOperand: /[1-9][0-9]*(\.[0-9]+)?|0\.[0-9]*[1-9]|0/g,
     CHECK_CORRECT_ENTER: /[^0-9\.+\-*/]/g,
     CHECK_FLOAT_REG: /^[0-9]*[.]?[0-9]+(?:[eE][-+]?[0-9]+)?$/
   };
